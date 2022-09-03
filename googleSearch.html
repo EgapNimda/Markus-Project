@@ -10,17 +10,36 @@
 </head>
     
 <body>
+    <header>
+        <nav>
+            <ul class="otherpage-nav">
+                <a href = "#">Image Search</a> <!--link to other page-->
+                <a href = "#">Advanced Search</a> <!--link to other page-->
+            </ul>
+        </nav>
+    </header>
+
     <section>
-        <h1>Google</h1>
+        <h1><spand style="color:#4285F4">G</spand><spand style="color:#DB4437">O</spand><spand style="color:#F4B400">O</spand><spand style="color:#4285F4">G</spand><spand style="color:#0F9D58">L</spand><spand style="color:#DB4437">E</spand></h1>
         <!--search bar-->
         <div class="my-input-container">
-            <input type="text">
+            <form action = "http://google.com/search" target="_blank">
+                <input type="text" name = "q">
+            </form>
         </div>
+
         <!--button-->
+        
         <div class="my-button-container">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <a href ="http://www.google.com" target="_blank">
+                <button>Google Search</button>
+            </a>
+            <a href = "https://www.google.com/doodles" target="_blank">
+                <button>I'm Feeling Lucky</button>
+            </a>
+
         </div>
+
     </section>
 </body>
 </html>
