@@ -15,7 +15,11 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 5vh; /*5vh = 5% of view height*/
 }
 
+h1{
+    font-family: Product Sans;
+    font-size: 5.5em;
+}
 
