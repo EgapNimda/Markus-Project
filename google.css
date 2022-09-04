@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: arial, san-serif;
+    font-size: 0.9em;
+
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex; /*flex --> expands to fill avaliable free space and shrinks to prevent overflow*/
+    justify-content: space-between;
+}
+
+.otherpage-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1000px;
+    
+}
+
+
+section{
+    display: flex;
+    flex-direction: column; /*defaukt is row*/
+    align-items: center;
+    margin-top: 5vh; /*5vh = 5% of view height*/
+    font-family: ;
+}
+
+
+h1{
+    font-family: 'Product Sans';
+    font-size: 5.5em;
+    
+}
+
+.my-input-container{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 999px;
+    margin: 0 auto;
+
+}
+
+.my-input-container:hover{
+    box-shadow: 0 0 1px;/* shift horizontal, shift vertical, blur*/
+}
+
+.my-input-container >form > input {
+    flex-grow: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.my-button-container{
+    padding-top: 53px;
+}
+
+button{
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: none;
+    height: 36px; 
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px gainsboro;
+
+}
+
+@media (max-width: 630px) {
+    /* do these stuff if the width is less than 630 */
+    .my-input-container{
+        width: 95vw;
+    }
+}
+
+@media (max-height: 522px){
+    /* do these stuff if the height is less than 522 */
+  
+    body{
+        overfloqw-x: hidden;
+    }
+}
+
+@media  (max-height: 570px) and (max-height: 630px){
+    body{
+        overflow-x: hidden;
+    }
+}
