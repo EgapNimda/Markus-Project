@@ -1,0 +1,69 @@
+*{
+    margin-top: 0;
+}
+
+body {
+    flex-direction: column;
+}
+
+.otherpage-nav {
+    padding-top: 15px;
+    padding-right: 30px;
+    
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.otherpage-nav a{
+    float: right;
+    display: block;
+
+    padding-right: 15px;
+}
+
+.my-input-container > form > input {
+    flex-grow: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+
+}
+
+.my-input-container > form > input.Search {
+
+}
+
+.my-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 999px;
+    margin: 0 auto;
+}
+
+.my-button-container {
+    position: relative;
+    margin: 50px;
+    text-align: center;
+
+}
+
+h1 {
+    position: relative;
+    margin-top: 69px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 69pt;
+}
+
+h2 {
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30pt;
+}
+

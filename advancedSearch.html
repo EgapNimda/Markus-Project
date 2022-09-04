@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>The Coolest Search Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="otherpage-nav">
+            <a href = "googleSearch.html">Google Search</a> <!--link to other page-->
+            <a href = "imageSearch.html">Image Search</a> <!--link to other page-->
+        </ul>
+    </nav>
+</header>
+    <form action="https://google.com/search" name="ggSearch">
+        <div class="field">
+            <label for="field1">all these words:</label>
+            <input type="text" class="textInput" id="field1" value=""  name="as_q">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field2">this exact word or phrase: </label>
+            <input type="text" class="textInput" id="field2" value=""  name="as_epq">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field3">any of this words: </label>
+            <input type="text" class="textInput" id="field3" value=""  name="as_oq">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field4">none of these words: </label>
+            <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+        </div>
+        <br>
+        <div class="field">
+            <label for="field5">numbers ranging from: </label>
+            <input type="text" class="textinput1" id="field5" value=""  name="as_nlo">
+            <span class="seperator">to</span>
+            <input type="text" class="textinput2" id="field5" value=""  name="as_nhi">
+        </div>
+        <input type="submit" value="advanced search">
+    </form>
+</body>
+</html>
