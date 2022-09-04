@@ -18,7 +18,7 @@ body {
 .otherpage-nav a{
     float: right;
     display: block;
-
+    
     padding-right: 15px;
 }
 
@@ -69,3 +69,11 @@ h2 {
     font-size: 30pt;
 }
 
+.field>label{
+    display: inline-block;
+    width: 150px;
+}
+
+.field>input.textinput{
+    border-radius: 2px;
+}
