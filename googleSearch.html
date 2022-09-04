@@ -1,40 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <!-- <link rel="icon" href="./pics/google-icon.png"> -->
-    <link rel="stylesheet" href="google.css">
-</head>
+    <head>
+        <title>The Coolest Google Search</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
     
 <body>
     <header>
         <nav>
             <ul class="otherpage-nav">
                 <a href = "imageSearch.html">Image Search</a> <!--link to other page-->
-                <a href = "AdvancedSearch.html">Advanced Search</a> <!--link to other page-->
+                <a href = "advancedSearch.html">Advanced Search</a> <!--link to other page-->
             </ul>
         </nav>
     </header>
 
     <section>
         <h1><spand style="color:#4285F4">G</spand><spand style="color:#DB4437">O</spand><spand style="color:#F4B400">O</spand><spand style="color:#4285F4">G</spand><spand style="color:#0F9D58">L</spand><spand style="color:#DB4437">E</spand></h1>
-        
         <!--search bar-->
         <div class="my-input-container">
-            <form action = "http://google.com/search" target="_blank">
-                <input type="text" name = "q">
+            <form action = "http://google.com/search" method="get">
+                <input type="text" class="input_field" name = "q">
+                <div class="search">
+                    <input type="submit" value="Search">
+                </div>
             </form>
         </div>
 
         <!--button-->
+        
         <div class="my-button-container">
-            <a href ="http://www.google.com" target="_blank">
+            <a href ="http://www.google.com" method = "get">
                 <button>Google Search</button>
             </a>
-            <a href = "https://www.google.com/doodles" target="_blank">
+            <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" method = "get">
                 <button>I'm Feeling Lucky</button>
             </a>
 

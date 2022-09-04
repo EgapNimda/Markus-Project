@@ -1,81 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google Image Search</title>
-        <style>
-        
-            body {
-                background-color: rgb(0, 151, 232);
-            }
-
-            
-            .navbar ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                float: right;
-            }
-            
-            .navbar li {
-                float: right;
-            }
-
-            .navbar li a {
-                display: block;
-                color: beige;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-
-            .navbar li a:hover:not(.active) {
-                background-color: rgb(66, 88, 155);
-            }
-            
-            .name {
-                font-size: 40pt;
-                font-family: "Gill Sans", sans-serif ;
-                color: yellow;
-                position: absolute;
-                top: 22%;
-                left: 48%;
-            }
-            .input_field {
-                position: absolute;
-                top: 30%;
-                left: 40%;
-                height: 25px;
-                width: 400px;
-                border-radius: 10px;
-                font-size: medium;
-                padding: 4px;
-            }
-            
-        </style>
+        <title>The Coolest Image Search</title>
+        <link rel="stylesheet" href="styles.css">
 
     </head>
     <body>
         <div>
-            <div class="navbar">
+            <div class="otherpage-nav">
                 <ul>
-                    <li><a href="#imgsearch">Image Search</a></li>
-                    <li><a href="https://www.google.com">Advanced Search</a></li>
-                    <li><a href="">Search</a></li>
+                    <a href="googleSearch.html">Google Search</a>
+                    <a href="advancedSearch.html">Advanced Search</a>
                 </ul>
             </div>
 
-            <div class="name">
-                <h> Web</h>
-            </div>
+            <h1><spand style="color:#4285F4">G</spand><spand style="color:#DB4437">O</spand><spand style="color:#F4B400">O</spand><spand style="color:#4285F4">G</spand><spand style="color:#0F9D58">L</spand><spand style="color:#DB4437">E</spand></h1>
+            <h2><spand style="color:#4285F4">I</spand><spand style="color:#DB4437">M</spand><spand style="color:#F4B400">A</spand><spand style="color:#4285F4">G</spand><spand style="color:#0F9D58">E</spand><spand style="color:#DB4437">S</spand></h2>
+
         </div>
         
-        <div>
+        <div class = "my-input-container">
+
             <form action="https://images.google.com/images" method="get">
                 <input type="text" class="input_field" name = "q">
-                <input type="submit" value="Search">
+                <div class="search">
+                    <input type="submit" value="Search">
+                </div>
+                
             </form>
+
+            <div class="my-button-container">
+                <a href ="http://www.google.com" method = "get">
+                    <button>Google Search</button>
+                </a>
+                <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" method = "get">
+                    <button>I'm Feeling Lucky</button>
+                </a>
+
         </div>
+        </div>
+        
         
     </body>
 
